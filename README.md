@@ -41,8 +41,8 @@ Sub klasse: Tænd_og_sluk_tid
 Super klasse: Varme   
 Sub klasse: Termostatregulator
 
-Super klasse: El
+Super klasse: El   
 Sub klasse: Tænd_og_sluk_standby_devices
 
-Super klasse: Vindue
+Super klasse: Vindue   
 Sub klasse: Tænd_og_sluk_vindue
