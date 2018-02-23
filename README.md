@@ -29,3 +29,17 @@ Kaffemaskinen tænder automatisk på et bestemt tidspunkt og laver kaffe til ham
 Varme termostaten regulærer varmen så rummet ikke bliver for koldt.   
 Når hans devices/enheder går på standby og ikke bliver brugt, bliver der slukket for strømmet til de devices/enheder.   
 Når vinduet bliver åbnet, slukker varmen og når man lukker det bliver varmen tændt igen, så man sparer på varmen.
+
+## Design your classes
+
+Super klasse: Lys   
+Sub klasse: Tænd_og_sluk, Bevægelsessensor
+
+Super klasse: Kaffemaskine   
+Sub klasse: Tænd_og_sluk, Tidscontroller
+
+Super klasse: Varme   
+Sub klasse: Termostat
+
+Super klasse: El
+
