@@ -33,13 +33,16 @@ Når vinduet bliver åbnet, slukker varmen og når man lukker det bliver varmen 
 ## Design your classes
 
 Super klasse: Lys   
-Sub klasse: Tænd_og_sluk, Bevægelsessensor
+Sub klasse: Tænd_og_sluk_bevægelse
 
 Super klasse: Kaffemaskine   
-Sub klasse: Tænd_og_sluk, Tidscontroller
+Sub klasse: Tænd_og_sluk_tid
 
 Super klasse: Varme   
-Sub klasse: Termostat
+Sub klasse: Termostatregulator
 
 Super klasse: El
+Sub klasse: Tænd_og_sluk_standby_devices
 
+Super klasse: Vindue
+Sub klasse: Tænd_og_sluk_vindue
